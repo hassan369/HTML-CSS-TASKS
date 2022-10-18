@@ -7,13 +7,23 @@
     <title>Document</title>
 </head>
 <body>
-    <span>Register</span>
     <form action="" id="form1">
+        <fieldset>
+            <legend>RegForm</legend>
         <div>
-            <label for="email">Email</label>
-            <input type="text" name="email"><br>
+            <label for="name">Name</label>
+            <input type="text" name="name" id="name" placeholder="Enter Name Her"><br>
             <label for="password">Password</label>
-            <input type="password" name="password"><br>
+            <input type="password" name="password" id="password" placeholder="Enter password Her"><br>
+            <label for="email">Email</label>
+            <input type="text" name="email" id="email" placeholder="Enter Name Her"><br>
+            <label for="date">Date</label>
+            <input type="date" name="date" id="date"><br>
+            <label for="phone">Phone Number</label>
+            <input type="number" name="phone" id="phone"><br>
+            <label for="file">Select file</label>
+            <input type="file" name="file" id="file"><br>
+            
 
             <label for="gender">Gender &nbsp; &nbsp; &nbsp;</label>
             <input type="radio" id="male" value="male" name="gender">
@@ -22,32 +32,30 @@
             <label for="femail">femail</label>
 
             <br>
-            <label for="">Favorite subject</label>
+            <label for="">Languge</label>
             <input type="checkbox" id="html" value="html">
-            <label for="html">html</label>
+            <label for="html">Hindi</label>
             <input type="checkbox" id="css" value="css">
-            <label for="css" >css</label>
-            <input type="checkbox" id="javascript" value="JavaScript">
-            <label for="javascript">JavaScript</label>
+            <label for="css" >English</label>
 
             <br>
-            <label for="ddl">Where are you form</label>
+            <label for="ddl">Course</label>
             <select  name="ddl">
-                <option value="amman">amman</option>
-                <option value="jerash">jerash</option>
-                <option value="irbid">irbid</option>
-                <option value="other">other</option>
+                <option value="amman">cs</option>
+                <option value="jerash">html</option>
+                <option value="irbid">javascript</option>
             </select>
             
             <br><br>
-            <label for="ta">descripe your self</label><br>
+            <label for="ta">Comment</label><br>
             <textarea name="ta"  cols="30" rows="10"></textarea>
         </div>
 
         <div>
-            <button>Cancel</button>
-            <button form="form1">Register</button>
+            <button>RegisterNow</button>
+            <button form="form1">Refresh</button>
         </div>
+    </fieldset>
     </form>
 </body>
 </html>

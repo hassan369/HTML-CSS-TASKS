@@ -1,0 +1,30 @@
+body{
+    padding-top: 2px;
+}
+table ,th,td{
+    width: 450px;
+    border: 1px solid black;
+    border-collapse: collapse;
+    margin-bottom: 25px;
+    
+}
+
+.h2 {
+    background-color: lightblue;
+    color: rgb(89, 89, 243);
+    padding: 2px;
+}
+
+.blue{
+    color: rgb(89, 89, 243);
+    
+    font-weight: bold;
+}
+.light-blue{
+    color: rgb(39, 187, 237);
+}
+
+
+.gray {
+    background-color: rgb(228, 224, 224);
+}

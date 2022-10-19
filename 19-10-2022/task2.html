@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #ia {
+            color: black;
+        }
+        #ip{
+            color: blue;
+        }
+        #ipa{
+            color: orange;
+        }
+        #iipa{
+            color: orange;
+        }
+        #iiipa{
+            color: orange;
+            background-color: yellow;
+        }
+        .cm{
+            color: red;
+        }
+        #ulblue{
+            color: blue;
+        }
+        #bullet-remove{
+            list-style: none;
+        }
+        #first-ul > li{
+            margin:10px ;
+        }
+
+        #first-ul li:first-child{
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <h1><a href="https://css-tricks.com/having-a-little-fun-with-custom-focus-styles/" id="ia">Have Fun while Styling!</a></h1>
+    <hr>
+    <p id="ip">Here is a text <a  id="ipa" href="#">with a link</a>. Let's do it !</p>
+    <p>We have more <a href="#" id="iipa">links</a> here;</p>
+    <p>this is a (<a href="#" id="iiipa">link</a>).</p> 
+    <p>We have a list</p>
+    <ul id="first-ul">
+        <li id="cmli">Please, <a href="#" class="cm">Click Me!</a></li>
+        <li>Can you ? let's count
+            <ul type="circle" id="ulblue">
+                <li >111</li>
+                <li>222 <a href="#" class="cm">Another Link</a></li>
+                <li>333</li>
+                <ul id="bullet-remove">
+                    <li>red</li>
+                    <li>green</li>
+                    <li>blue <a href="#" class="cm">Colors Link</a></li>
+                </ul>
+            </ul>
+        </li>
+        <li>That's Enough!</li>
+    </ul>
+</body>
+</html>

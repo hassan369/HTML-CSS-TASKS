@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .container {
+        height: 90vh;
+        display: grid;
+        gap: 10px;
+        grid-template-areas:
+          'one one one one one'
+          'two two two three three'
+          'four four four four four';
+      }
+      .one {
+        grid-area: one;
+        background-color: black;
+      }
+      .two {
+        grid-area: two;
+        background-color: orange;
+      }
+      .three {
+        grid-area: three;
+        background-color: green;
+      }
+      .four {
+        grid-area: four;
+        background-color: blue;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="one"></div>
+      <div class="two"></div>
+      <div class="three"></div>
+      <div class="four"></div>
+    </div>
+  </body>
+</html>

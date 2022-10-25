@@ -12,6 +12,7 @@
       .container {
         background-color: rgb(202, 132, 3);
         display: flex;
+        flex-wrap: wrap;
         height: 97vh;
         justify-content: stretch;
         padding: 10px;
@@ -22,6 +23,17 @@
         text-align: center;
         font-size: 60px;
       }
+      @media only screen and (min-width: 0px) and (max-width: 480px){
+        .item{
+          width: 100%;
+        }
+      }
+      @media only screen and (min-width: 481px) and (max-width: 768px){
+        .item{
+          width: 33.3%;
+        }
+      }
+
       .one {
         background-color: green;
       }
